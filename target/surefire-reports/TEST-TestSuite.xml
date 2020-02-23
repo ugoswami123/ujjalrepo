@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,382.333" tests="11" errors="0" skipped="0" failures="11">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ujjal/.m2/repository/org/apache/maven/surefire/surefire-booter/2.22.1/surefire-booter-2.22.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.1/surefire-api-2.22.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.1/surefire-logger-api-2.22.1.jar:/Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW/target/test-classes:/Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW/target/classes:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.6.0/selenium-java-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.6.0/selenium-chrome-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.6.0/selenium-edge-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.6.0/selenium-firefox-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.6.0/selenium-ie-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.6.0/selenium-opera-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.6.0/selenium-remote-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.6.0/selenium-safari-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.6.0/selenium-support-3.6.0.jar:/Users/ujjal/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/ujjal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ujjal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/ujjal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ujjal/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/ujjal/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/ujjal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ujjal/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/ujjal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ujjal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ujjal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ujjal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ujjal/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/ujjal/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/ujjal/.m2/repository/org/testng/testng/6.9.8/testng-6.9.8.jar:/Users/ujjal/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/ujjal/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/ujjal/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/ujjal/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/ujjal/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/ujjal/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/ujjal/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/ujjal/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/ujjal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/ujjal/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/ujjal/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.2/webdrivermanager-3.6.2.jar:/Users/ujjal/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/ujjal/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/ujjal/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/ujjal/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/ujjal/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/ujjal/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/ujjal/.m2/repository/net/masterthought/cucumber-reporting/1.0.0/cucumber-reporting-1.0.0.jar:/Users/ujjal/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/ujjal/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/ujjal/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/ujjal/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/ujjal/.m2/repository/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar:/Users/ujjal/.m2/repository/net/lingala/zip4j/zip4j/1.3.2/zip4j-1.3.2.jar:/Users/ujjal/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/ujjal/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/ujjal/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/Users/ujjal/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/ujjal/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/ujjal/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar:/Users/ujjal/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/Users/ujjal/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/ujjal/.m2/repository/com/codoid/products/fillo/1.21/fillo-1.21.jar:/Users/ujjal/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ujjal/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/ujjal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure-testng/2.6.0/allure-testng-2.6.0.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure-descriptions-javadoc/2.6.0/allure-descriptions-javadoc-2.6.0.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/Users/ujjal/.m2/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Users/ujjal/.m2/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/Users/ujjal/.m2/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/ujjal/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/ujjal/.m2/repository/org/apache/maven/surefire/surefire-testng/2.22.1/surefire-testng-2.22.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/surefire/common-java5/2.22.1/common-java5-2.22.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.1/surefire-testng-utils-2.22.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.1/surefire-grouper-2.22.1.jar:/Users/ujjal/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW/target/surefire 2020-02-23T19-35-35_906-jvmRun1 surefire2772629391749128466tmp surefire_03552770216219850384tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW/target/test-classes:/Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW/target/classes:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.6.0/selenium-java-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.6.0/selenium-chrome-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.6.0/selenium-edge-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.6.0/selenium-firefox-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.6.0/selenium-ie-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.6.0/selenium-opera-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.6.0/selenium-remote-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.6.0/selenium-safari-driver-3.6.0.jar:/Users/ujjal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.6.0/selenium-support-3.6.0.jar:/Users/ujjal/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/Users/ujjal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ujjal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/ujjal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ujjal/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/ujjal/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/Users/ujjal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ujjal/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/Users/ujjal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ujjal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ujjal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ujjal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ujjal/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/ujjal/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/ujjal/.m2/repository/org/testng/testng/6.9.8/testng-6.9.8.jar:/Users/ujjal/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/ujjal/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/ujjal/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/ujjal/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/ujjal/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/ujjal/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/ujjal/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/ujjal/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/ujjal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/ujjal/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/ujjal/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.2/webdrivermanager-3.6.2.jar:/Users/ujjal/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/ujjal/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/ujjal/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/ujjal/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/ujjal/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/ujjal/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/ujjal/.m2/repository/net/masterthought/cucumber-reporting/1.0.0/cucumber-reporting-1.0.0.jar:/Users/ujjal/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/ujjal/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/ujjal/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/ujjal/.m2/repository/velocity-tools/velocity-tools/1.4/velocity-tools-1.4.jar:/Users/ujjal/.m2/repository/joda-time/joda-time/2.9.1/joda-time-2.9.1.jar:/Users/ujjal/.m2/repository/net/lingala/zip4j/zip4j/1.3.2/zip4j-1.3.2.jar:/Users/ujjal/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/ujjal/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/ujjal/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/Users/ujjal/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/ujjal/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/Users/ujjal/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/ujjal/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar:/Users/ujjal/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/Users/ujjal/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/ujjal/.m2/repository/com/codoid/products/fillo/1.21/fillo-1.21.jar:/Users/ujjal/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ujjal/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/ujjal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure-testng/2.6.0/allure-testng-2.6.0.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure-descriptions-javadoc/2.6.0/allure-descriptions-javadoc-2.6.0.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/Users/ujjal/.m2/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/Users/ujjal/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.7.0/jackson-annotations-2.7.0.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.7.0/jackson-core-2.7.0.jar:/Users/ujjal/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/Users/ujjal/.m2/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/Users/ujjal/.m2/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/Users/ujjal/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/ujjal/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ujjal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="ujjal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ujjal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="/Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/ujjal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="/Users/ujjal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="searchDirection" classname="TestCase.MapTest" time="3.483">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .left_tab_base div a:nth-child(1)&apos; (tried for 3 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .left_tab_base div a:nth-child(1)' (tried for 3 second(s) with 500 MILLISECONDS interval)
+	at TestCase.MapTest.searchDirection(MapTest.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".left_tab_base div a:nth-child(1)"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=css selector, value=.left_tab_base div a:nth-child(1)}
+	at TestCase.MapTest.searchDirection(MapTest.java:75)
+</failure>
+    <system-out><![CDATA[Directory already exists: /Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW/TestReport
+ExtentReport Path for MAC: /Users/ujjal/Documents/workspace/Intello3C/MapSynQ_NEW/TestReport
+
+Base URL is:http://www.mapsynq.com
+Extent Reports Version 3 Test Suite started!
+searchDirection started!
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 47625
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Feb 23, 2020 7:35:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="getMapLocation" classname="TestCase.MapTest" time="5.049">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;ad_toggle&quot;}&#10;  (Session info: chrome=79.0.3945.130)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;Ujjals-Air-2&apos;, ip: &apos;2402:3a80:a59:94a8:653a:8673:bd13:71ba&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 75219bd915ad3f1889612cbfb456f0da&#10;*** Element info: {Using=id, value=ad_toggle}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"ad_toggle"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=id, value=ad_toggle}
+	at TestCase.MapTest.getMapLocation(MapTest.java:39)
+</failure>
+    <system-out><![CDATA[searchDirection failed!
+getMapLocation started!
+]]></system-out>
+  </testcase>
+  <testcase name="clickParking" classname="TestCase.MapTest" time="3.196">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .buttonPanel.olControlNoSelect div:nth-child(3)&apos; (tried for 3 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .buttonPanel.olControlNoSelect div:nth-child(3)' (tried for 3 second(s) with 500 MILLISECONDS interval)
+	at TestCase.MapTest.clickParking(MapTest.java:50)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".buttonPanel.olControlNoSelect div:nth-child(3)"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=css selector, value=.buttonPanel.olControlNoSelect div:nth-child(3)}
+	at TestCase.MapTest.clickParking(MapTest.java:50)
+</failure>
+    <system-out><![CDATA[getMapLocation failed!
+clickParking started!
+]]></system-out>
+  </testcase>
+  <testcase name="clickToll" classname="TestCase.MapTest" time="3.176">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .buttonPanel.olControlNoSelect div:nth-child(1)&apos; (tried for 3 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .buttonPanel.olControlNoSelect div:nth-child(1)' (tried for 3 second(s) with 500 MILLISECONDS interval)
+	at TestCase.MapTest.clickToll(MapTest.java:60)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".buttonPanel.olControlNoSelect div:nth-child(1)"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=css selector, value=.buttonPanel.olControlNoSelect div:nth-child(1)}
+	at TestCase.MapTest.clickToll(MapTest.java:60)
+</failure>
+    <system-out><![CDATA[clickParking failed!
+clickToll started!
+]]></system-out>
+  </testcase>
+  <testcase name="searchIncident" classname="TestCase.ValidateData" time="5.05">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;ad_toggle&quot;}&#10;  (Session info: chrome=79.0.3945.130)&#10;  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;&#10;System info: host: &apos;Ujjals-Air-2&apos;, ip: &apos;2402:3a80:a59:94a8:653a:8673:bd13:71ba&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 75219bd915ad3f1889612cbfb456f0da&#10;*** Element info: {Using=id, value=ad_toggle}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"ad_toggle"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=id, value=ad_toggle}
+	at TestCase.ValidateData.searchIncident(ValidateData.java:30)
+</failure>
+    <system-out><![CDATA[clickToll failed!
+searchIncident started!
+Search Location is:Anson Road
+]]></system-out>
+  </testcase>
+  <testcase name="clickPersonal" classname="TestCase.ValidateData" time="10.48">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .left_tab a:nth-child(2)&apos; (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .left_tab a:nth-child(2)' (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at TestCase.ValidateData.clickPersonal(ValidateData.java:42)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".left_tab a:nth-child(2)"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=css selector, value=.left_tab a:nth-child(2)}
+	at TestCase.ValidateData.clickPersonal(ValidateData.java:42)
+</failure>
+    <system-out><![CDATA[searchIncident failed!
+clickPersonal started!
+]]></system-out>
+  </testcase>
+  <testcase name="clickLive" classname="TestCase.ValidateData" time="566.084">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .left_tab a:nth-child(3)&apos; (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .left_tab a:nth-child(3)' (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at TestCase.ValidateData.clickLive(ValidateData.java:50)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".left_tab a:nth-child(3)"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=css selector, value=.left_tab a:nth-child(3)}
+	at TestCase.ValidateData.clickLive(ValidateData.java:50)
+</failure>
+    <system-out><![CDATA[clickPersonal failed!
+clickLive started!
+]]></system-out>
+  </testcase>
+  <testcase name="cameraList" classname="TestCase.ValidateData" time="15.5">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Cameras&apos;)]&apos; (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Cameras')]' (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at TestCase.ValidateData.cameraList(ValidateData.java:57)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Cameras')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=xpath, value=//h2[contains(text(),'Cameras')]}
+	at TestCase.ValidateData.cameraList(ValidateData.java:57)
+</failure>
+    <system-out><![CDATA[clickLive failed!
+cameraList started!
+]]></system-out>
+  </testcase>
+  <testcase name="searchIncidentLocation" classname="TestCase.ValidateData" time="15.509">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.id: txtSearchCamerasingapore&apos; (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: txtSearchCamerasingapore' (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at TestCase.ValidateData.searchIncidentLocation(ValidateData.java:68)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"txtSearchCamerasingapore"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=id, value=txtSearchCamerasingapore}
+	at TestCase.ValidateData.searchIncidentLocation(ValidateData.java:68)
+</failure>
+    <system-out><![CDATA[cameraList failed!
+searchIncidentLocation started!
+]]></system-out>
+  </testcase>
+  <testcase name="getIncidentList" classname="TestCase.ValidateData" time="693.88">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Incidents&apos;)]&apos; (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Incidents')]' (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at TestCase.ValidateData.getIncidentList(ValidateData.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Incidents')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=xpath, value=//h2[contains(text(),'Incidents')]}
+	at TestCase.ValidateData.getIncidentList(ValidateData.java:77)
+</failure>
+    <system-out><![CDATA[searchIncidentLocation failed!
+getIncidentList started!
+]]></system-out>
+  </testcase>
+  <testcase name="getTollList" classname="TestCase.ValidateData" time="15.508">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //h2[contains(text(),&apos;Tolls&apos;)]&apos; (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Tolls')]' (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at TestCase.ValidateData.getTollList(ValidateData.java:89)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Tolls')]"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'Ujjals-Air-2', ip: '2402:3a80:a59:94a8:653a:8673:bd13:71ba', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=MAC, setWindowRect=true, unexpectedAlertBehaviour=accept, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85), userDataDir=/var/folders/w_/8p8hmcdd7236kdc2hbz_nrb00000gp/T/.org.chromium.Chromium.aQzP9P}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=accept, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75219bd915ad3f1889612cbfb456f0da
+*** Element info: {Using=xpath, value=//h2[contains(text(),'Tolls')]}
+	at TestCase.ValidateData.getTollList(ValidateData.java:89)
+</failure>
+    <system-out><![CDATA[getIncidentList failed!
+getTollList started!
+]]></system-out>
+  </testcase>
+</testsuite>
