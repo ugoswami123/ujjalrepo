@@ -53,7 +53,7 @@ public class BaseClass {
 				options.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
 
 				options.addArguments("--start-maximized");
-				options.setHeadless(false);//for headless need to set this to true
+				options.setHeadless(true);//for headless need to set this to true
 				 driver=new ChromeDriver(options);
 //					ChromeOptions options = new ChromeOptions();
 //					driver=new ChromeDriver();
